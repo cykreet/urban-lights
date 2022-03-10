@@ -2,22 +2,16 @@
 	"name": "urban-lights-icons",
 	"displayName": "Urban Lights Icons",
 	"description": "The Urban Lights icon pack is an unofficial fork of the City Lights Icon Theme.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"license": "CC BY-NC-ND 4.0",
-	"main": "./dist/index.js",
 	"private": false,
 	"publisher": "cykreet",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/cykreet/urban-lights.git"
 	},
-	"activationEvents": [
-		"onIdentity:identity"
-	],
 	"scripts": {
-		"vscode:prepublish": "npm run build",
-		"package": "vsce package --out ./dist",
-		"build": "tsup"
+		"package": "vsce package"
 	},
 	"icon": "icon.png",
 	"engines": {
