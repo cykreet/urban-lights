@@ -1,73 +1,50 @@
 {
-  "name": "city-lights-icon-vsc",
-  "displayName": "City Lights Icon package",
-  "description": "The City Lights icon pack is a gorgeous set of icons which you can toggle by color or grayscale to enhance your focus",
-  "categories": [
-    "Themes"
-  ],
-  "license": "CC BY-NC-ND 4.0",
-  "version": "1.1.5",
-  "publisher": "Yummygum",
-  "repository": "https://github.com/Yummygum/city-lights-icons-vsc",
-  "engines": {
-    "vscode": "^1.5.0"
-  },
-  "icon": "icon.png",
-  "activationEvents": [
-    "*"
-  ],
-  "main": "./out/src/extension",
-  "contributes": {
-    "iconThemes": [
-      {
-        "id": "city-lights-icons-vsc",
-        "label": "City Lights Icon Theme (Visual Studio Code) - Black & White",
-        "path": "./icons/city-lights-icon-theme.json"
-      },
-      {
-        "id": "city-lights-icons-vsc-light",
-        "label": "City Lights Icon Theme (Visual Studio Code) - Colors",
-        "path": "./icons/city-lights-icon-theme-light.json"
-      }
-    ],
-    "commands": [
-      {
-        "command": "city-lights-icons-vsc.hidesExplorerArrows",
-        "title": "City Lights Icons: Toggle Folder Arrows"
-      }
-    ],
-    "configuration": {
-      "title": "%displayName%",
-      "properties": {
-        "city-lights-icons-vsc.hidesExplorerArrows": {
-          "type": "boolean",
-          "default": false,
-          "description": "%configuration.hidesExplorerArrows%",
-          "scope": "window"
-        }
-      }
-    }
-  },
-  "scripts": {
-    "vscode:prepublish": "npm run build",
-    "prebuild": "npm run lint && npm run clean",
-    "build": "npm run compile",
-    "compile": "tsc -p ./",
-    "clean": "rimraf ./out",
-    "postinstall": "node ./node_modules/vscode/bin/install",
-    "lint": "tslint -c tslint.json ./src/**/*.ts"
-  },
-  "devDependencies": {
-    "@types/node": "^10.7.1",
-    "rimraf": "^2.6.2",
-    "ts-node": "^7.0.1",
-    "tslint": "^5.11.0",
-    "typescript": "^3.0.1",
-    "vscode": "^1.1.21"
-  },
-  "dependencies": {
-    "bluebird": "^3.5.1",
-    "lodash.merge": "^4.6.2",
-    "semver": "^5.5.1"
-  }
+	"name": "urban-lights-icons",
+	"displayName": "Urban Lights Icons",
+	"description": "The Urban Lights icon pack is an unofficial fork of the City Lights Icon Theme.",
+	"version": "1.0.0",
+	"license": "CC BY-NC-ND 4.0",
+	"main": "./dist/index.js",
+	"private": false,
+	"publisher": "cykreet",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/cykreet/urban-lights.git"
+	},
+	"activationEvents": [
+		"onIdentity:identity"
+	],
+	"scripts": {
+		"vscode:prepublish": "npm run build",
+		"package": "vsce package --out ./dist",
+		"build": "tsup"
+	},
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "urban-lights-icons",
+				"label": "Urban Lights Icon Theme - Black & White",
+				"path": "./icons/urban-lights-icon-theme.json"
+			},
+			{
+				"id": "urban-lights-colours",
+				"label": "Urban Lights Icon Theme - Colours",
+				"path": "./icons/urban-lights-icon-theme-colours.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"@types/node": "^17.0.21",
+		"esbuild": "^0.14.25",
+		"tsup": "^5.12.0",
+		"typescript": "^4.5.5",
+		"vsce": "^2.6.7"
+	}
 }
