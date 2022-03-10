@@ -1,5 +1,5 @@
 {
-	"hidesExplorerArrows": false,
+	"hidesExplorerArrows": true,
 	"iconDefinitions": {
 		"_default": {
 			"iconPath": "./svg/default-icon.svg"
@@ -352,6 +352,12 @@
 		"_ruby_light": {
 			"iconPath": "./svg/ruby-icon-active.svg"
 		},
+		"_rust": {
+			"iconPath": "./svg/rust-icon.svg"
+		},
+		"_rust_light": {
+			"iconPath": "./svg/rust-icon-active.svg"
+		},
 		"_scala": {
 			"iconPath": "./svg/scala-icon.svg"
 		},
@@ -523,7 +529,8 @@
 		"mint": "_mint",
 		"haml": "_haml",
 		"erb": "_haml",
-		"toml": "_toml"
+		"toml": "_toml",
+		"rs": "_rust"
 	},
 	"languageIds": {
 		"clojure": "_clojure",
@@ -557,7 +564,8 @@
 		"textplain": "_textfile",
 		"svelte": "_svelte",
 		"graphql": "_graphql",
-		"mint": "_mint"
+		"mint": "_mint",
+		"rust": "_rust"
 	},
 	"fileNames": {
 		"yarn.clean": "_yarn",
@@ -572,8 +580,5 @@
 		"sass-lint.yml": "_sass",
 		"procfile": "_heroku",
 		"npm-debug.log": "_npm"
-	},
-	"options": {
-		"hidesExplorerArrows": true
 	}
 }

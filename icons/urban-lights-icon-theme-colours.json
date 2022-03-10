@@ -1,5 +1,5 @@
 {
-	"hidesExplorerArrows": false,
+	"hidesExplorerArrows": true,
 	"iconDefinitions": {
 		"_default": {
 			"iconPath": "./svg/default-icon.svg"
@@ -346,6 +346,12 @@
 		"_python_light": {
 			"iconPath": "./svg/python-icon-active.svg"
 		},
+		"_rust": {
+			"iconPath": "./svg/rust-icon.svg"
+		},
+		"_rist_light": {
+			"iconPath": "./svg/rust-icon-active.svg"
+		},
 		"_ruby": {
 			"iconPath": "./svg/ruby-icon.svg"
 		},
@@ -523,7 +529,8 @@
 		"mint": "_mint_light",
 		"haml": "_haml_light",
 		"erb": "_haml_light",
-		"toml": "_toml_light"
+		"toml": "_toml_light",
+		"rs": "_rust_light"
 	},
 	"languageIds": {
 		"clojure": "_clojure_light",
@@ -557,7 +564,8 @@
 		"textplain": "_textfile_light",
 		"svelte": "_svelte_light",
 		"graphql": "_graphql_light",
-		"mint": "_mint_light"
+		"mint": "_mint_light",
+		"rust": "_rust_light"
 	},
 	"fileNames": {
 		"yarn.clean": "_yarn_light",
@@ -572,8 +580,5 @@
 		"sass-lint.yml": "_sass_light",
 		"procfile": "_heroku_light",
 		"npm-debug.log": "_npm_light"
-	},
-	"options": {
-		"hidesExplorerArrows": true
 	}
 }

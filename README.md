@@ -2,7 +2,7 @@
 
 this is an unofficial fork of the [City Lights](https://marketplace.visualstudio.com/items?itemName=Yummygum.city-lights-icon-vsc) icon pack, mainly for the reason that the original extension is missing some icons and hasn't been updated in quite a while. don't get too attached, if the original extension kicks back to life, this fork will more than likely get left behind.
 
-this fork removes some features - like toggling folder icons, along with updating dependencies and fixing vscode web IDE support.
+this fork removes some features - like toggling folder icons, along with fixing vscode web IDE support.
 
 # City Lights Icon Package for VSCode
 
