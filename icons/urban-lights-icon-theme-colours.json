@@ -52,12 +52,6 @@
 		"_yarn_light": {
 			"iconPath": "./svg/yarn-icon-active.svg"
 		},
-		"_gitignore": {
-			"iconPath": "./svg/gitignore-icon.svg"
-		},
-		"_gitignore_light": {
-			"iconPath": "./svg/gitignore-icon-active.svg"
-		},
 		"_git": {
 			"iconPath": "./svg/git-icon.svg"
 		},
@@ -447,7 +441,7 @@
 		"md": "_markdown_light",
 		"svg": "_svg_light",
 		"svgx": "_svg_light",
-		"gitignore": "_gitignore_light",
+		"gitignore": "_git_light",
 		"gitconfig": "_git_light",
 		"gitkeep": "_git_light",
 		"gitattributes": "_git_light",
