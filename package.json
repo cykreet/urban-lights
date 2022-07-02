@@ -2,7 +2,7 @@
 	"name": "urban-lights-icons",
 	"displayName": "Urban Lights Icons",
 	"description": "Unofficial fork of the City Lights icon theme.",
-	"version": "1.0.6",
+	"version": "1.0.8",
 	"license": "CC BY-NC-ND 4.0",
 	"private": false,
 	"publisher": "cykreet",
@@ -25,7 +25,7 @@
 		"iconThemes": [
 			{
 				"id": "urban-lights-icons",
-				"label": "Urban Lights Icon Theme - Black & White",
+				"label": "Urban Lights Icon Theme - Grey",
 				"path": "./icons/urban-lights-icon-theme.json"
 			},
 			{
@@ -36,6 +36,6 @@
 		]
 	},
 	"devDependencies": {
-		"vsce": "^2.7.0"
+		"vsce": "^2.9.2"
 	}
 }
