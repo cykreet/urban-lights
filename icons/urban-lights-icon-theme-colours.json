@@ -211,6 +211,9 @@
 		"_svelte": {
 			"iconPath": "./svg/svelte-icon-active.svg"
 		},
+		"_kotlin": {
+			"iconPath": "./svg/kotlin-icon-active.svg"
+		},
 		"_graphql": {
 			"iconPath": "./svg/graphql-icon-active.svg"
 		},
@@ -255,6 +258,7 @@
 		"sass": "_sass",
 		"scss": "_scss",
 		"vue": "_vue",
+		"kt": "_kotlin",
 		"eslintrc": "_eslint",
 		"eslintrc.js": "_eslint",
 		"eslintrc.yaml": "_eslint",
@@ -351,6 +355,7 @@
 		"git-rebase": "_git",
 		"textplain": "_textfile",
 		"svelte": "_svelte",
+		"kotlin": "_kotlin",
 		"graphql": "_graphql",
 		"mint": "_mint",
 		"rust": "_rust"
