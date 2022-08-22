@@ -2,10 +2,14 @@
 	"name": "urban-lights-icons",
 	"displayName": "Urban Lights Icons",
 	"description": "Unofficial fork of the City Lights icon theme.",
-	"version": "1.0.9",
+	"version": "1.0.10",
 	"license": "CC BY-NC-ND 4.0",
 	"private": false,
 	"publisher": "cykreet",
+	"galleryBanner": {
+		"theme": "dark",
+		"color": "#111114"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/cykreet/urban-lights.git"
