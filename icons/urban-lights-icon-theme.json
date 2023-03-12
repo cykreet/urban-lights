@@ -76,6 +76,9 @@
 		"_bower": {
 			"iconPath": "./svg/bower-icon.svg"
 		},
+		"_c": {
+			"iconPath": "./svg/c-icon.svg"
+		},
 		"_cpp": {
 			"iconPath": "./svg/cplusplus-icon.svg"
 		},
@@ -315,6 +318,7 @@
 		"travis.yml": "_travis",
 		"svelte": "_svelte",
 		"graphql": "_graphql",
+		"gql": "_graphql",
 		"mint": "_mint",
 		"haml": "_haml",
 		"erb": "_haml",
@@ -326,6 +330,7 @@
 	"languageIds": {
 		"clojure": "_clojure",
 		"coffeescript": "_coffeescript",
+		"c": "_c",
 		"csharp": "_csharp",
 		"cpp": "_cpp",
 		"css": "_css",
