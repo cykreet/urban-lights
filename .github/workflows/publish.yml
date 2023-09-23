@@ -20,12 +20,6 @@ jobs:
           cache: "pnpm"
       - name: Install Dependencies
         run: pnpm install
-      # Copy urban-lights-icon-theme.json to urban-lights-icon-theme-colours.json, replace
-      # svg icon paths with -active suffix
-      - name: Prepare Icons
-        run: |
-          cp ./icons/svg/urban-lights-icon-theme.json ./icons/svg/urban-lights-icon-theme-colours.json
-          sed -i 's/\.svg/\.svg-active/g' ./icons/svg/urban-lights-icon-theme-colours.json
       - name: Package
         run: pnpm run package
       - name: Publish
