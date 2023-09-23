@@ -77,7 +77,7 @@
 			"iconPath": "./svg/bower-icon-active.svg"
 		},
 		"_c": {
-			"iconPath": "./svg/c-icon.svg"
+			"iconPath": "./svg/c-icon-active.svg"
 		},
 		"_cpp": {
 			"iconPath": "./svg/cplusplus-icon-active.svg"
@@ -178,11 +178,11 @@
 		"_python": {
 			"iconPath": "./svg/python-icon-active.svg"
 		},
-		"_rust": {
-			"iconPath": "./svg/rust-icon-active.svg"
-		},
 		"_ruby": {
 			"iconPath": "./svg/ruby-icon-active.svg"
+		},
+		"_rust": {
+			"iconPath": "./svg/rust-icon-active.svg"
 		},
 		"_scala": {
 			"iconPath": "./svg/scala-icon-active.svg"
@@ -223,6 +223,12 @@
 		"_mint": {
 			"iconPath": "./svg/mint-icon-active.svg"
 		},
+		"_mojo": {
+			"iconPath": "./svg/mojo-icon-active.svg"
+		},
+		"_bun": {
+			"iconPath": "./svg/bun-icon-active.svg"
+		},
 		"_toml": {
 			"iconPath": "./svg/toml-icon-active.svg"
 		}
@@ -244,13 +250,13 @@
 		"gitmodules": "_git",
 		"gradle": "_gradle",
 		"ts": "_typescript",
+		"jsx": "_jsx",
 		"typescript": "_typescript",
 		"spec.ts": "_typescript",
 		"typescriptreact": "_typescript",
 		"yml": "_yaml",
 		"yaml": "_yml",
 		"js": "_js",
-		"jsx": "_jsx",
 		"spec.js": "_js",
 		"js.map": "_js",
 		"es": "_js",
@@ -325,11 +331,14 @@
 		"toml": "_toml",
 		"rs": "_rust",
 		"vscodeignore": "_vscode",
-		"vsix": "_vscode"
+		"vsix": "_vscode",
+		"mojo": "_mojo",
+		"🔥": "_mojo"
 	},
 	"languageIds": {
 		"clojure": "_clojure",
 		"coffeescript": "_coffeescript",
+		"c": "_c",
 		"csharp": "_csharp",
 		"cpp": "_cpp",
 		"css": "_css",
@@ -362,9 +371,11 @@
 		"kotlin": "_kotlin",
 		"graphql": "_graphql",
 		"mint": "_mint",
-		"rust": "_rust"
+		"rust": "_rust",
+		"mojo": "_mojo"
 	},
 	"fileNames": {
+		"bun.lock": "_bun",
 		"yarn.clean": "_yarn",
 		"yarn.lock": "_yarn",
 		"bower.json": "_bower",

@@ -223,6 +223,12 @@
 		"_mint": {
 			"iconPath": "./svg/mint-icon.svg"
 		},
+		"_mojo": {
+			"iconPath": "./svg/mojo-icon.svg"
+		},
+		"_bun": {
+			"iconPath": "./svg/bun-icon.svg"
+		},
 		"_toml": {
 			"iconPath": "./svg/toml-icon.svg"
 		}
@@ -325,7 +331,9 @@
 		"toml": "_toml",
 		"rs": "_rust",
 		"vscodeignore": "_vscode",
-		"vsix": "_vscode"
+		"vsix": "_vscode",
+		"mojo": "_mojo",
+		"🔥": "_mojo"
 	},
 	"languageIds": {
 		"clojure": "_clojure",
@@ -363,9 +371,11 @@
 		"kotlin": "_kotlin",
 		"graphql": "_graphql",
 		"mint": "_mint",
-		"rust": "_rust"
+		"rust": "_rust",
+		"mojo": "_mojo"
 	},
 	"fileNames": {
+		"bun.lock": "_bun",
 		"yarn.clean": "_yarn",
 		"yarn.lock": "_yarn",
 		"bower.json": "_bower",

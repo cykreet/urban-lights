@@ -2,7 +2,7 @@
 	"name": "urban-lights-icons",
 	"displayName": "Urban Lights Icons",
 	"description": "Unofficial fork of the City Lights icon theme.",
-	"version": "1.0.12",
+	"version": "1.1.0",
 	"license": "CC BY-NC-ND 4.0",
 	"private": false,
 	"publisher": "cykreet",
@@ -15,7 +15,8 @@
 		"url": "https://github.com/cykreet/urban-lights.git"
 	},
 	"scripts": {
-		"package": "vsce package",
+		"prepare": "sh ./scripts/prepare-icons.sh",
+		"package": "pnpm prepare && vsce package",
 		"publish": "vsce publish"
 	},
 	"icon": "icon.png",
