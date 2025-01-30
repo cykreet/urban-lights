@@ -151,9 +151,6 @@
 		"_java": {
 			"iconPath": "./svg/java-icon.svg"
 		},
-		"_jsx": {
-			"iconPath": "./svg/jsx-icon.svg"
-		},
 		"_less": {
 			"iconPath": "./svg/less-icon.svg"
 		},
@@ -177,6 +174,9 @@
 		},
 		"_python": {
 			"iconPath": "./svg/python-icon.svg"
+		},
+		"_react": {
+			"iconPath": "./svg/react-icon.svg"
 		},
 		"_ruby": {
 			"iconPath": "./svg/ruby-icon.svg"
@@ -251,8 +251,8 @@
 		"gitmodules": "_git",
 		"gradle": "_gradle",
 		"ts": "_typescript",
-		"jsx": "_jsx",
-		"tsx": "_jsx",
+		"jsx": "_react",
+		"tsx": "_react",
 		"yml": "_yaml",
 		"yaml": "_yml",
 		"js": "_js",
@@ -347,7 +347,7 @@
 		"properties": "_java",
 		"java": "_java",
 		"javascript": "_js",
-		"javascriptreact": "_jsx",
+		"javascriptreact": "_react",
 		"json": "_json",
 		"less": "_less",
 		"markdown": "_markdown",
@@ -359,7 +359,7 @@
 		"sass": "_sass",
 		"swift": "_swift",
 		"typescript": "_typescript",
-		"typescriptreact": "_jsx",
+		"typescriptreact": "_react",
 		"yaml": "_yaml",
 		"vue-html": "_vue",
 		"git-commit": "_git",
