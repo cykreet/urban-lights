@@ -237,6 +237,7 @@
 	"folder": "_folder",
 	"folderExpanded": "_folder_open",
 	"fileExtensions": {
+		"angular-cli.json": "_angular",
 		"json": "_json",
 		"babelrc": "_babel",
 		"sh": "_bash",
@@ -386,6 +387,5 @@
 		"sass-lint.yml": "_sass",
 		"procfile": "_heroku",
 		"npm-debug.log": "_npm",
-		"angular-cli.json": "_angular",
 	}
 }
