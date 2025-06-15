@@ -130,3 +130,4 @@ dist
 .pnp.*
 
 *.vsix
+icons/*-colours.json
