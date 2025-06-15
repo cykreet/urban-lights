@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-30.7092,-9.48617)">
+        <g transform="matrix(1,0,0,1,174.056,42.1607)">
+            <path d="M632.938,220.642C632.938,187.871 606.332,161.265 573.56,161.265L-60.253,161.265C-93.025,161.265 -119.631,187.871 -119.631,220.642L-119.631,514.008C-119.631,546.78 -93.025,573.386 -60.253,573.386L573.56,573.386C606.332,573.386 632.938,546.78 632.938,514.008L632.938,220.642Z" style="fill:rgb(38,39,43);"/>
+        </g>
+        <g transform="matrix(29.7897,0,0,29.7897,-6593.42,-9819.57)">
+            <text x="225.033px" y="346.772px" style="font-family:'JetBrainsMono-Bold', 'JetBrains Mono', monospace;font-weight:700;font-size:12px;fill:rgb(131,137,154);">SQL</text>
+        </g>
+    </g>
+</svg>

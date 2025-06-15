@@ -187,8 +187,14 @@
 		"_scala": {
 			"iconPath": "./svg/scala-icon.svg"
 		},
+		"_solidity": {
+			"iconPath": "./svg/solidity-icon.svg"
+		},
 		"_sketchplugin": {
 			"iconPath": "./svg/sketchplugin-icon.svg"
+		},
+		"_sql": {
+			"iconPath": "./svg/sql-icon.svg"
 		},
 		"_stylus": {
 			"iconPath": "./svg/stylus-icon.svg"
@@ -237,7 +243,6 @@
 	"folder": "_folder",
 	"folderExpanded": "_folder_open",
 	"fileExtensions": {
-		"angular-cli.json": "_angular",
 		"json": "_json",
 		"babelrc": "_babel",
 		"sh": "_bash",
@@ -255,6 +260,8 @@
 		"tsx": "_react",
 		"yml": "_yaml",
 		"yaml": "_yml",
+		"cjs": "_js",
+		"mjs": "_js",
 		"js": "_js",
 		"spec.js": "_js",
 		"js.map": "_js",
@@ -330,7 +337,9 @@
 		"vscodeignore": "_vscode",
 		"vsix": "_vscode",
 		"mojo": "_mojo",
-		"🔥": "_mojo"
+		"🔥": "_mojo",
+		"sql": "_sql",
+		"sol": "_solidity"
 	},
 	"languageIds": {
 		"clojure": "_clojure",
@@ -370,9 +379,12 @@
 		"graphql": "_graphql",
 		"mint": "_mint",
 		"rust": "_rust",
-		"mojo": "_mojo"
+		"mojo": "_mojo",
+		"sql": "_sql",
+		"solidity": "_solidity"
 	},
 	"fileNames": {
+		"angular-cli.json": "_angular",
 		"bun.lockb": "_bun",
 		"yarn.clean": "_yarn",
 		"yarn.lock": "_yarn",
@@ -386,6 +398,6 @@
 		"gulpfile.babel.js": "_gulp",
 		"sass-lint.yml": "_sass",
 		"procfile": "_heroku",
-		"npm-debug.log": "_npm",
+		"npm-debug.log": "_npm"
 	}
 }
