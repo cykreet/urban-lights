@@ -4,15 +4,17 @@
 
 Some additional icons include:
 
-<img src="./icons/svg/svelte-icon.svg" width="48" alt="js" style="margin:12px"/>
-<img src="./icons/svg/react-icon.svg" width="48" alt="python" style="margin:12px"/>
-<img src="./icons/svg/kotlin-icon.svg" width="48" alt="html" style="margin:12px"/>
-<img src="./icons/svg/rust-icon.svg" width="48" alt="css" style="margin:12px"/>
-<img src="./icons/svg/ruby-icon.svg" width="48" alt="json" style="margin:12px"/>
-<img src="./icons/svg/graphql-icon.svg" width="48" alt="json" style="margin:12px"/>
-<img src="./icons/svg/gradle-icon.svg" width="48" alt="json" style="margin:12px"/>
-<img src="./icons/svg/solidity-icon.svg" width="48" alt="json" style="margin:12px"/>
+<div align="center" style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center;">
+<img src="./icons/svg/svelte-icon.svg" width="48" alt="svelte" style="margin:12px"/>
+<img src="./icons/svg/react-icon.svg" width="48" alt="react" style="margin:12px"/>
+<img src="./icons/svg/kotlin-icon.svg" width="48" alt="kotlin" style="margin:12px"/>
+<img src="./icons/svg/rust-icon.svg" width="48" alt="rust" style="margin:12px"/>
+<img src="./icons/svg/ruby-icon.svg" width="48" alt="ruby" style="margin:12px"/>
+<img src="./icons/svg/graphql-icon.svg" width="48" alt="graphql" style="margin:12px"/>
+<img src="./icons/svg/gradle-icon.svg" width="48" alt="gradle" style="margin:12px"/>
+<img src="./icons/svg/solidity-icon.svg" width="48" alt="solidity" style="margin:12px"/>
 and a few more...
+</div>
 
 # City Lights Icon Package for VSCode
 
