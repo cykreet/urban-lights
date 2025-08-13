@@ -2,6 +2,18 @@
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | This is an unofficial fork of the [City Lights](https://marketplace.visualstudio.com/items?itemName=Yummygum.city-lights-icon-vsc) icon pack, mainly for the reasons that the original extension is missing some icons and hasn't been updated in ~4 years. This fork removes some features - like toggling folder icons, along with fixing vscode web IDE support. |
 
+Some additional icons include:
+
+<img src="./icons/svg/svelte-icon.svg" width="48" alt="js" style="margin:12px"/>
+<img src="./icons/svg/react-icon.svg" width="48" alt="python" style="margin:12px"/>
+<img src="./icons/svg/kotlin-icon.svg" width="48" alt="html" style="margin:12px"/>
+<img src="./icons/svg/rust-icon.svg" width="48" alt="css" style="margin:12px"/>
+<img src="./icons/svg/ruby-icon.svg" width="48" alt="json" style="margin:12px"/>
+<img src="./icons/svg/graphql-icon.svg" width="48" alt="json" style="margin:12px"/>
+<img src="./icons/svg/gradle-icon.svg" width="48" alt="json" style="margin:12px"/>
+<img src="./icons/svg/solidity-icon.svg" width="48" alt="json" style="margin:12px"/>
+and a few more...
+
 # City Lights Icon Package for VSCode
 
 The City Lights Color Theme is a gorgeous dark syntax theme designed with focus in mind. City Lights Color Theme has many custom made visual aids to help you code faster and more accurate. Over eight of the most popular coding languages are currently supported.
