@@ -5,14 +5,14 @@
 Some additional icons include:
 
 <div align="center" style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center;">
-<img src="./icons/svg/svelte-icon.svg" width="48" alt="svelte" style="margin:12px"/>
-<img src="./icons/svg/react-icon.svg" width="48" alt="react" style="margin:12px"/>
-<img src="./icons/svg/kotlin-icon.svg" width="48" alt="kotlin" style="margin:12px"/>
-<img src="./icons/svg/rust-icon.svg" width="48" alt="rust" style="margin:12px"/>
-<img src="./icons/svg/ruby-icon.svg" width="48" alt="ruby" style="margin:12px"/>
-<img src="./icons/svg/graphql-icon.svg" width="48" alt="graphql" style="margin:12px"/>
-<img src="./icons/svg/gradle-icon.svg" width="48" alt="gradle" style="margin:12px"/>
-<img src="./icons/svg/solidity-icon.svg" width="48" alt="solidity" style="margin:12px"/>
+<img src="./images/previews/svelte-icon.png" width="48" alt="svelte" style="margin:12px"/>
+<img src="./images/previews/react-icon.png" width="48" alt="react" style="margin:12px"/>
+<img src="./images/previews/kotlin-icon.png" width="48" alt="kotlin" style="margin:12px"/>
+<img src="./images/previews/rust-icon.png" width="48" alt="rust" style="margin:12px"/>
+<img src="./images/previews/ruby-icon.png" width="48" alt="ruby" style="margin:12px"/>
+<img src="./images/previews/graphql-icon.png" width="48" alt="graphql" style="margin:12px"/>
+<img src="./images/previews/gradle-icon.png" width="48" alt="gradle" style="margin:12px"/>
+<img src="./images/previews/solidity-icon.png" width="48" alt="solidity" style="margin:12px"/>
 and a few more...
 </div>
 
